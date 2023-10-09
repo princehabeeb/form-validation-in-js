@@ -1,0 +1,29 @@
+
+/* body{
+    position: relative;
+} */
+.message{
+   background-color: green;
+
+   width: 50%;
+   height: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: monospace;
+   text-transform: uppercase;
+   color: #fff;
+   /* visibility: hidden; */
+   transition: .5s ease;
+   /* left: 50%; */
+}
+
+
+.show{
+    visibility: visible;
+}
